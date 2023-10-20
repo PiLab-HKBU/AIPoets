@@ -8,21 +8,21 @@ const highlightItems = ref(
       [
         {
           content: "AI 再現古詩人聲音面貌；<br>仿真普通話視頻互動；<br>提升古詩朗讀及國語聽說能力",
-          img: "/home/img/item_word/item_word_1.png",
+          img: "/AIPoets/home/img/item_word/item_word_1.png",
         },
         {
           content: "智能分析學生能力和興趣；<br>個性定制學習路徑；<br>激發參與度",
-          img: "/home/img/item_word/item_word_2.png",
+          img: "/AIPoets/home/img/item_word/item_word_2.png",
         },
       ],
       [
         {
           content: "AI插圖輔助詩歌理解；<br>讓學習過程簡單又有趣",
-          img: "/home/img/item_word/item_word_3.png",
+          img: "/AIPoets/home/img/item_word/item_word_3.png",
         },
         {
           content: "與古詩人AI共創詩歌；<br>幫助學生深入瞭解詩歌結構；<br>激發詩歌寫作創造力",
-          img: "/home/img/item_word/item_word_4.png",
+          img: "/AIPoets/home/img/item_word/item_word_4.png",
         }
       ]
     ]
@@ -31,37 +31,37 @@ const highlightItems = ref(
 const members = ref(
     [
       {
-        avatar: "/home/img/members/li_chen.jpg",
+        avatar: "/AIPoets/home/img/members/li_chen.jpg",
         name: "陳黎教授",
         title: "教授及副系主任（研究）<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：人工智能、數據驅動的交互、網絡個性化、智能用戶界面"
       },
       {
-        avatar: "/home/img/members/yucheng_jin.jpg",
+        avatar: "/AIPoets/home/img/members/yucheng_jin.jpg",
         name: "金昱成博士",
         title: "研究助理教授<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：用戶與人工智能係統交互，人工智能實現人類創造力研究"
       },
       {
-        avatar: "/home/img/members/wenfang_liang.jpg",
+        avatar: "/AIPoets/home/img/members/wenfang_liang.jpg",
         name: "梁文芳博士",
         title: "普通話組主任<br>及高級講師<br>語文中心<br>香港浸會大學",
         domains: "研究方向：語言評估、漢語作為第二語言教學"
       },
       {
-        avatar: "/home/img/members/jing_jin.jpg",
+        avatar: "/AIPoets/home/img/members/jing_jin.jpg",
         name: "金晶博士",
         title: "語言教育中心主任<br>中國語言學系副教授<br>香港教育大學",
         domains: "研究方向：漢語語言學、 語法語義接口、語法語用接口、語言習得方法"
       },
       {
-        avatar: "/home/img/members/yizhe_zhang.jpg",
+        avatar: "/AIPoets/home/img/members/yizhe_zhang.jpg",
         name: "張藝哲先生",
         title: "高級研究助理<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：推薦系統、人機交互、軟件工程"
       },
       {
-        avatar: "/home/img/members/sinan_yu.jpg",
+        avatar: "/AIPoets/home/img/members/sinan_yu.jpg",
         name: "余思南女士",
         title: "在讀博士生<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：人機交互、個性化界面設計"
@@ -71,17 +71,17 @@ const members = ref(
 
 const screenshots = ref(
     [
-      "/home/img/screenshots/1.png",
-      "/home/img/screenshots/2.png",
-      "/home/img/screenshots/3.png",
-      "/home/img/screenshots/4.png"
+      "/AIPoets/home/img/screenshots/1.png",
+      "/AIPoets/home/img/screenshots/2.png",
+      "/AIPoets/home/img/screenshots/3.png",
+      "/AIPoets/home/img/screenshots/4.png"
     ]
 )
 
 const organizations = ref(
     [
       {
-        avatar: "/home/img/organizations/lenovo.jpg",
+        avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
         name: "聯想研究院",
       }
     ]
