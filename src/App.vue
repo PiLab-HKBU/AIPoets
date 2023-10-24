@@ -172,7 +172,7 @@ const videos = ref(
 
             </p>
             <p class="subtitle pt-1">
-              <a href="/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline">宣傳海報下載</a>
+              <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline">宣傳海報下載</a>
             </p>
           </div>
         </div>
