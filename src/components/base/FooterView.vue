@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="footer py-6">
+  <footer class="footer py-6" style="background-color: white">
     <div class="container is-max-widescreen">
       <div class="content has-text-centered">
         <p>
@@ -22,9 +22,7 @@
 </template>
 
 <style scoped>
-* {
-  font-family: 'Heiti TC',sans-serif
-}
+
 
 a {
   color: #BF5A25;
