@@ -86,6 +86,17 @@ const members = ref(
     ]
 )
 
+
+const organizations = ref(
+    [
+      {
+        avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
+        name: "聯想研究院",
+        website: "https://research.lenovo.com",
+      }
+    ]
+)
+
 const screenshots = ref(
     [
       {
@@ -111,15 +122,27 @@ const screenshots = ref(
     ]
 )
 
-const organizations = ref(
+const videos = ref(
     [
       {
-        avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
-        name: "聯想研究院",
-        website: "https://research.lenovo.com",
+        video: "/AIPoets/home/files/1.mp4",
+        description: "詩歌講解",
+      },
+      {
+        video: "/AIPoets/home/files/2.mp4",
+        description: "朗讀評分",
+      },
+      {
+        video: "/AIPoets/home/files/3.mp4",
+        description: "智能問答",
+      },
+      {
+        video: "/AIPoets/home/files/4.mp4",
+        description: "共創詩歌",
       }
     ]
 )
+
 
 </script>
 
@@ -207,7 +230,20 @@ const organizations = ref(
         </div>
 
         <p class="pb-5" style="font-size: 2rem; font-weight: bold; color: #BF5A25">原型演示</p>
-        <iframe src="https://drive.google.com/file/d/18c_eW2sDn0XPVZGDn-2ve4N28-PH0ELx/preview" allow="autoplay" style="height: 50vh"></iframe>
+<!--        <iframe src="https://drive.google.com/file/d/18c_eW2sDn0XPVZGDn-2ve4N28-PH0ELx/preview" allow="autoplay" style="height: 50vh"></iframe>-->
+
+        <div class="columns is-mobile is-multiline">
+          <div class="column is-3 is-hidden-mobile" v-for="item in videos">
+            <video width="100%" :src="item.video" style="width: 100%" controls></video>
+            <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
+          </div>
+
+          <div class="column is-6 is-hidden-tablet" v-for="item in videos">
+            <video width="100%" :src="item.video" style="width: 100%" controls></video>
+            <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
+          </div>
+
+        </div>
       </div>
     </div>
   </section>

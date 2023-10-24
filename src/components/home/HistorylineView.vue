@@ -3,12 +3,12 @@ import {ref} from "vue";
 
 const historyLine = ref([
   {
-    title: "V1.0內部測試發布",
+    title: "測試程序開發",
     date: "12/10/2023",
     description: "",
   },
   {
-    title: "相關持份者研討會",
+    title: "教育工作者訪談",
     date: "10/09/2023",
     description: "",
   },
@@ -25,7 +25,7 @@ const historyLine = ref([
   {
     title: "古人數字化研究",
     date: "4/07/2023",
-    description: "與「聯想研究院」合作古人數字化工程。",
+    description: "",
   },
   {
     title: "架構設計",
@@ -33,12 +33,12 @@ const historyLine = ref([
     description: "",
   },
   {
-    title: "市場研究",
+    title: "市場研究與競品分析",
     date: "19/06/2023",
     description: "",
   },
   {
-    title: "立項",
+    title: "項目啟動",
     date: "08/06/2023",
     description: "",
   }
