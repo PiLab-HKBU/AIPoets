@@ -32,7 +32,7 @@ const highlightItems = ref(
         },
         {
           title: "AI共創詩歌",
-          content: "與古詩人AI共創詩歌；<br>幫助學生深入瞭解詩歌結構；<br>激發詩歌寫作創造力",
+          content: "與AI古詩人共創詩歌；<br>幫助學生深入瞭解詩歌結構；<br>激發詩歌寫作創造力",
           img: "/AIPoets/home/img/item_word/item_word_4.png",
         }
       ]
@@ -172,8 +172,8 @@ const videos = ref(
 
             </p>
             <p class="subtitle pt-1"  style="font-size: 1.2rem; line-height: 1.8rem">
-              ＊誠邀香港小學生試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
-              <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br>宣傳海報下載</a>
+              ＊誠邀香港中小學試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
+              <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
             </p>
           </div>
         </div>
@@ -230,7 +230,7 @@ const videos = ref(
           </div>
         </div>
 
-        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">原型演示</p>
+        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">概念演示</p>
 <!--        <iframe src="https://drive.google.com/file/d/18c_eW2sDn0XPVZGDn-2ve4N28-PH0ELx/preview" allow="autoplay" style="height: 50vh"></iframe>-->
 
         <div class="columns is-mobile is-multiline">
