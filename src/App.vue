@@ -151,9 +151,9 @@ const videos = ref(
 
   <div style="right: 0; position: absolute; height: 100vh; min-height: 290px; width: 50%; overflow: clip; z-index: -1">
     <div style="margin-left: 10%; margin-top: -290px; width: 1300px; height: 650px; position: relative; transform: rotate(-25deg)">
-      <img class="top-screenshot" src="/home/img/screenshots/library.png" style="height: 80%; top: -50%; left: 5%; position: absolute;">
-      <img class="top-screenshot" src="/home/img/screenshots/home.png" style="height: 80%; top: 35%; position: absolute;">
-      <img class="top-screenshot" src="/home/img/screenshots/learning_path.png" style="height: 80%; top: 35%; left: 21%; position: absolute;">
+      <img class="top-screenshot" src="/home/img/screenshots/library.png" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
+      <img class="top-screenshot" src="/home/img/screenshots/home.png" style="height: 80%; top: 35%; position: absolute;" alt="">
+      <img class="top-screenshot" src="/home/img/screenshots/learning_path.png" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
     </div>
   </div>
 
@@ -172,9 +172,7 @@ const videos = ref(
 
             </p>
             <p class="subtitle pt-1"  style="font-size: 1.2rem; line-height: 1.8rem">
-              <p>
-                ＊誠邀香港小學生試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
-              </p>
+              ＊誠邀香港小學生試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
               <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline">宣傳海報下載</a>
             </p>
           </div>
@@ -311,7 +309,7 @@ const videos = ref(
 
 .top-screenshot {
   border-radius: 40px;
-  box-shadow: 0px 5px 30px rgba(191, 90, 37, 0.65);
+  box-shadow: 0 5px 30px rgba(191, 90, 37, 0.65);
 }
 
 .highlight-content-title {
