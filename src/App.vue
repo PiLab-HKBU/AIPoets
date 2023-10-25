@@ -155,9 +155,9 @@ const videos = ref(
 
   <div style="right: 0; position: absolute; height: 100vh; min-height: 290px; width: 50%; overflow: clip; z-index: -1">
     <div style="margin-left: 10%; margin-top: -290px; width: 1300px; height: 650px; position: relative; transform: rotate(-25deg)">
-      <img class="top-screenshot" src="/home/img/screenshots/library.png" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
-      <img class="top-screenshot" src="/home/img/screenshots/home.png" style="height: 80%; top: 35%; position: absolute;" alt="">
-      <img class="top-screenshot" src="/home/img/screenshots/learning_path.png" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
+      <img class="top-screenshot" src="/home/img/screenshots/library.jpg" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
+      <img class="top-screenshot" src="/home/img/screenshots/home.jpg" style="height: 80%; top: 35%; position: absolute;" alt="">
+      <img class="top-screenshot" src="/home/img/screenshots/learning_path.jpg" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
     </div>
   </div>
 
