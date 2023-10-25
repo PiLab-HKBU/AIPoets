@@ -127,22 +127,22 @@ const videos = ref(
       {
         video: "/AIPoets/home/files/1.mp4",
         description: "詩歌講解",
-        poster: "/home/files/video_posters/1.jpg",
+        poster: "/AIPoets/home/files/video_posters/1.jpg",
       },
       {
         video: "/AIPoets/home/files/2.mp4",
         description: "朗讀評分",
-        poster: "/home/files/video_posters/2.jpg",
+        poster: "/AIPoets/home/files/video_posters/2.jpg",
       },
       {
         video: "/AIPoets/home/files/3.mp4",
         description: "智能問答",
-        poster: "/home/files/video_posters/3.jpg",
+        poster: "/AIPoets/home/files/video_posters/3.jpg",
       },
       {
         video: "/AIPoets/home/files/4.mp4",
         description: "共創詩歌",
-        poster: "/home/files/video_posters/4.jpg",
+        poster: "/AIPoets/home/files/video_posters/4.jpg",
       }
     ]
 )
