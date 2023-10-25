@@ -89,11 +89,11 @@ const members = ref(
 
 const organizations = ref(
     [
-      {
-        avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
-        name: "聯想研究院",
-        website: "https://research.lenovo.com",
-      }
+      // {
+      //   avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
+      //   name: "聯想研究院",
+      //   website: "https://research.lenovo.com",
+      // }
     ]
 )
 
@@ -171,7 +171,10 @@ const videos = ref(
             <p class="subtitle pt-5" v-html="basic.description">
 
             </p>
-            <p class="subtitle pt-1">
+            <p class="subtitle pt-1"  style="font-size: 1.2rem; line-height: 1.8rem">
+              <p>
+                ＊誠邀香港小學生試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
+              </p>
               <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline">宣傳海報下載</a>
             </p>
           </div>
@@ -214,7 +217,7 @@ const videos = ref(
   <section class="hero is-halfheight p-0">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <p class="pb-5" style="font-size: 2rem; font-weight: bold; color: #BF5A25">主要功能</p>
+        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">主要功能</p>
         <div class="columns is-hidden-mobile">
           <div class="column" v-for="item in screenshots">
             <img :src="item.img" alt="">
@@ -229,7 +232,7 @@ const videos = ref(
           </div>
         </div>
 
-        <p class="pb-5" style="font-size: 2rem; font-weight: bold; color: #BF5A25">原型演示</p>
+        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">原型演示</p>
 <!--        <iframe src="https://drive.google.com/file/d/18c_eW2sDn0XPVZGDn-2ve4N28-PH0ELx/preview" allow="autoplay" style="height: 50vh"></iframe>-->
 
         <div class="columns is-mobile is-multiline">
@@ -251,7 +254,7 @@ const videos = ref(
   <section class="hero is-halfheight p-0" style="background-color: #FAEED7">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <p class="pb-5" style="font-size: 2rem; font-weight: bold; color: #BF5A25">項目主要成員</p>
+        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">項目主要成員</p>
         <div class="columns is-multiline">
           <div class="column is-3" v-for="item in members">
             <div class="columns is-multiline is-mobile">
@@ -270,38 +273,29 @@ const videos = ref(
             </div>
           </div>
         </div>
-        <p class="pb-5" style="font-size: 2rem; font-weight: bold; color: #BF5A25">行業合作者</p>
-        <div class="columns is-multiline">
-          <div class="column is-3" v-for="item in organizations">
-            <div class="columns is-multiline is-mobile">
-              <div class="column is-full" style="position: relative; height: 100px;">
-                <div
-                    style="width: 200px; height: 100px; box-shadow: 0 0 5px rgb(128,128,128); border-radius: 15px; overflow: clip; position: absolute; left: 50%; margin-left: -100px">
-                  <img :src="item.avatar" alt="" style="width: 100%; height: 100%; object-fit: cover">
+        <template v-if="organizations.length > 0">
+          <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">行業合作者</p>
+          <div class="columns is-multiline">
+            <div class="column is-3" v-for="item in organizations">
+              <div class="columns is-multiline is-mobile">
+                <div class="column is-full" style="position: relative; height: 100px;">
+                  <div
+                      style="width: 200px; height: 100px; box-shadow: 0 0 5px rgb(128,128,128); border-radius: 15px; overflow: clip; position: absolute; left: 50%; margin-left: -100px">
+                    <img :src="item.avatar" alt="" style="width: 100%; height: 100%; object-fit: cover">
+                  </div>
                 </div>
-              </div>
-              <div class="column pt-5">
-                <a :href="item.website" target="_blank" style="color: #BF5A25"><p v-html="item.name" style="text-align: center; font-size: 1.2rem; font-family: SimSun,sans-serif"></p></a>
+                <div class="column pt-5">
+                  <a :href="item.website" target="_blank" style="color: #BF5A25"><p v-html="item.name" style="text-align: center; font-size: 1.2rem; font-family: SimSun,sans-serif"></p></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </template>
       </div>
     </div>
   </section>
 
   <HistorylineView />
-
-  <section class="hero p-0" style="background-color: #FAEED7">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <p style="font-size: 1.2rem">
-          聯繫方式：陳黎教授，<span
-            style="font-weight: bold"><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
-        </p>
-      </div>
-    </div>
-  </section>
 
   <FooterView />
 </template>
@@ -309,6 +303,10 @@ const videos = ref(
 <style scoped>
 * {
   font-family: 'Free HK', sans-serif; /* 使用 @font-face 自定义的字体 */
+}
+
+.section-title {
+  font-family: SimSun,sans-serif;
 }
 
 .top-screenshot {
