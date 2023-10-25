@@ -127,18 +127,22 @@ const videos = ref(
       {
         video: "/AIPoets/home/files/1.mp4",
         description: "詩歌講解",
+        poster: "/home/files/video_posters/1.jpg",
       },
       {
         video: "/AIPoets/home/files/2.mp4",
         description: "朗讀評分",
+        poster: "/home/files/video_posters/2.jpg",
       },
       {
         video: "/AIPoets/home/files/3.mp4",
         description: "智能問答",
+        poster: "/home/files/video_posters/3.jpg",
       },
       {
         video: "/AIPoets/home/files/4.mp4",
         description: "共創詩歌",
+        poster: "/home/files/video_posters/4.jpg",
       }
     ]
 )
@@ -235,12 +239,12 @@ const videos = ref(
 
         <div class="columns is-mobile is-multiline">
           <div class="column is-3 is-hidden-mobile" v-for="item in videos">
-            <video width="100%" :src="item.video" style="width: 100%" controls></video>
+            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>
             <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
           </div>
 
           <div class="column is-6 is-hidden-tablet" v-for="item in videos">
-            <video width="100%" :src="item.video" style="width: 100%" controls></video>
+            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>
             <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
           </div>
 
