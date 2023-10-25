@@ -149,7 +149,7 @@ const videos = ref(
 <template>
   <NavigationBarView />
 
-  <div style="right: 0; position: absolute; height: 50vh; min-height: 290px; width: 50%; overflow: clip;">
+  <div style="right: 0; position: absolute; height: 100vh; min-height: 290px; width: 50%; overflow: clip; z-index: -1">
     <div style="margin-left: 10%; margin-top: -290px; width: 1300px; height: 650px; position: relative; transform: rotate(-25deg)">
       <img class="top-screenshot" src="/home/img/screenshots/library.png" style="height: 80%; top: -50%; left: 5%; position: absolute;">
       <img class="top-screenshot" src="/home/img/screenshots/home.png" style="height: 80%; top: 35%; position: absolute;">
@@ -202,8 +202,8 @@ const videos = ref(
                     </div>
                   </div>
                   <div class="column is-vcentered">
-                    <p class="highlightContent" style="font-weight: bold" v-html="item.title"></p>
-                    <p class="highlightContent" v-html="item.content"></p>
+                    <p class="highlight-content-title" v-html="item.title"></p>
+                    <p class="highlight-content" v-html="item.content"></p>
                   </div>
                 </div>
               </div>
@@ -314,7 +314,12 @@ const videos = ref(
   box-shadow: 0px 5px 30px rgba(191, 90, 37, 0.65);
 }
 
-.highlightContent {
+.highlight-content-title {
+  font-size: 1.3rem;
+  color: #BF5A25;
+}
+
+.highlight-content {
   font-size: 1.2rem;
 }
 
@@ -340,7 +345,12 @@ const videos = ref(
     opacity: 0.3;
   }
 
-  .highlightContent {
+  .highlight-content-title {
+    font-size: 1.1rem;
+    color: #BF5A25;
+  }
+
+  .highlight-content {
     font-size: 1rem;
   }
 

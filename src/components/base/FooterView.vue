@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="footer py-6" style="background-color: white; font-family: SimSun,sans-serif;">
+  <footer class="footer py-6" style="background-color: white; font-family: 'Heiti TC',sans-serif;">
     <div class="container is-max-widescreen">
       <div class="content has-text-centered">
         <p>
