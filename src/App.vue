@@ -261,7 +261,7 @@ const videos = ref(
   <section class="hero is-halfheight p-0" style="background-color: #FAEED7">
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">項目主要成員</p>
+        <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">主要成員</p>
         <div class="columns is-multiline">
           <div class="column is-3" v-for="item in members">
             <div class="columns is-multiline is-mobile">
@@ -281,7 +281,7 @@ const videos = ref(
           </div>
         </div>
         <template v-if="organizations.length > 0">
-          <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">行業合作者</p>
+          <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">合作機構</p>
           <div class="columns is-multiline">
             <div class="column is-3" v-for="item in organizations">
               <div class="columns is-multiline is-mobile">
