@@ -282,18 +282,18 @@ const videos = ref(
         </div>
         <template v-if="organizations.length > 0">
           <p class="pb-5 section-title" style="font-size: 2rem; font-weight: bold; color: #BF5A25">合作機構</p>
-          <div class="columns is-multiline">
+          <div class="columns is-multiline pb-6">
             <div class="column is-3" v-for="item in organizations">
               <div class="columns is-multiline is-mobile">
                 <div class="column is-full" style="position: relative; height: 100px;">
                   <div
-                      style="width: 200px; height: 100px; box-shadow: 0 0 5px rgb(128,128,128); border-radius: 15px; overflow: clip; position: absolute; left: 50%; margin-left: -100px">
+                      style="width: 230px; height: 130px; box-shadow: 0 0 5px rgb(128,128,128); border-radius: 15px; overflow: clip; position: absolute; left: 50%; margin-left: -100px">
                     <img :src="item.avatar" alt="" style="width: 100%; height: 100%; object-fit: contain; background-color: white">
                   </div>
                 </div>
-                <div class="column pt-5">
-                  <a :href="item.website" target="_blank" style="color: #BF5A25"><p v-html="item.name" style="text-align: center; font-size: 1.2rem; font-family: SimSun,sans-serif"></p></a>
-                </div>
+<!--                <div class="column pt-5">-->
+<!--                  <a :href="item.website" target="_blank" style="color: #BF5A25"><p v-html="item.name" style="text-align: center; font-size: 1.2rem; font-family: SimSun,sans-serif"></p></a>-->
+<!--                </div>-->
               </div>
             </div>
           </div>
