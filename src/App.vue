@@ -93,7 +93,12 @@ const organizations = ref(
       //   avatar: "/AIPoets/home/img/organizations/lenovo.jpg",
       //   name: "聯想研究院",
       //   website: "https://research.lenovo.com",
-      // }
+      // },
+      {
+        avatar: "/AIPoets/home/img/organizations/HKFEW_TECHED_CENTRE.png",
+        name: "香港教育工作者聯會",
+        website: "https://hkfew.org.hk",
+      }
     ]
 )
 
@@ -175,8 +180,8 @@ const videos = ref(
             <p class="subtitle pt-5" v-html="basic.description">
 
             </p>
-            <p class="subtitle pt-1"  style="font-size: 1.2rem; line-height: 1.8rem">
-              ＊誠邀香港中小學試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
+            <p class="subtitle pt-1"  style="font-size: 1.1rem; line-height: 1.8rem">
+              ＊誠邀香港中小學成為合作夥伴並參與免費試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
               <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
             </p>
           </div>
@@ -283,7 +288,7 @@ const videos = ref(
                 <div class="column is-full" style="position: relative; height: 100px;">
                   <div
                       style="width: 200px; height: 100px; box-shadow: 0 0 5px rgb(128,128,128); border-radius: 15px; overflow: clip; position: absolute; left: 50%; margin-left: -100px">
-                    <img :src="item.avatar" alt="" style="width: 100%; height: 100%; object-fit: cover">
+                    <img :src="item.avatar" alt="" style="width: 100%; height: 100%; object-fit: contain; background-color: white">
                   </div>
                 </div>
                 <div class="column pt-5">
