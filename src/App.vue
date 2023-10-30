@@ -16,24 +16,24 @@ const highlightItems = ref(
         {
           title: "AI古詩人",
           content: "AI再現古詩人聲音面貌；<br>仿真普通話視頻互動；<br>提升古詩朗讀及普通話聽說能力",
-          img: "/AIPoets/home/img/item_word/item_word_1.png",
+          img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_1.png",
         },
         {
           title: "個性化詩歌推薦",
           content: "智能分析學生能力和興趣；<br>個性定制學習路徑；<br>激發參與度",
-          img: "/AIPoets/home/img/item_word/item_word_2.png",
+          img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_2.png",
         },
       ],
       [
         {
           title: "AI智能問答",
           content: "在對話中解疑答惑；<br>AI插圖輔助詩歌理解；<br>讓學習過程簡單又有趣",
-          img: "/AIPoets/home/img/item_word/item_word_3.png",
+          img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_3.png",
         },
         {
           title: "AI共創詩歌",
           content: "與AI古詩人共創詩歌；<br>幫助學生深入瞭解詩歌結構；<br>激發詩歌寫作創造力",
-          img: "/AIPoets/home/img/item_word/item_word_4.png",
+          img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_4.png",
         }
       ]
     ]
@@ -42,42 +42,42 @@ const highlightItems = ref(
 const members = ref(
     [
       {
-        avatar: "/AIPoets/home/img/members/li_chen.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/li_chen.jpg",
         name: "陳黎教授",
         title: "教授及副系主任（研究）<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：人工智能、數據驅動的交互、網絡個性化、智能用戶界面",
         website: "https://www.comp.hkbu.edu.hk/~lichen",
       },
       {
-        avatar: "/AIPoets/home/img/members/yucheng_jin.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/yucheng_jin.jpg",
         name: "金昱成博士",
         title: "研究助理教授<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：用戶與人工智能係統交互，人工智能實現人類創造力研究",
         website: "https://www.comp.hkbu.edu.hk/~yuchengjin/",
       },
       {
-        avatar: "/AIPoets/home/img/members/wenfang_liang.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/wenfang_liang.jpg",
         name: "梁文芳博士",
         title: "普通話組主任<br>及高級講師<br>語文中心<br>香港浸會大學",
         domains: "研究方向：語言評估、漢語作為第二語言教學",
         website: "https://artsbu.hkbu.edu.hk/tc/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
       },
       {
-        avatar: "/AIPoets/home/img/members/jing_jin.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/jing_jin.jpg",
         name: "金晶博士",
         title: "語言教育中心主任<br>中國語言學系副教授<br>香港教育大學",
         domains: "研究方向：漢語語言學、 語法語義接口、語法語用接口、語言習得方法",
         website: "https://repository.eduhk.hk/en/persons/jing金晶-jin",
       },
       {
-        avatar: "/AIPoets/home/img/members/yizhe_zhang.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/yizhe_zhang.jpg",
         name: "張藝哲先生",
         title: "高級研究助理<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：推薦系統、人機交互、軟件工程",
         website: "https://elecoxy.com/",
       },
       {
-        avatar: "/AIPoets/home/img/members/sinan_yu.jpg",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/sinan_yu.jpg",
         name: "余思南女士",
         title: "在讀博士生<br>計算機科學系<br>香港浸會大學",
         domains: "研究方向：人機交互、個性化界面設計",
@@ -95,7 +95,7 @@ const organizations = ref(
       //   website: "https://research.lenovo.com",
       // },
       {
-        avatar: "/AIPoets/home/img/organizations/HKFEW_TECHED_CENTRE.png",
+        avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/organizations/HKFEW_TECHED_CENTRE.png",
         name: "香港教育工作者聯會",
         website: "https://hkfew.org.hk",
       }
@@ -105,23 +105,23 @@ const organizations = ref(
 const screenshots = ref(
     [
       {
-        img: "/AIPoets/home/img/screenshots/1.JPEG",
+        img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/1.JPEG",
         description: "朗讀評分卡",
       },
       {
-        img: "/AIPoets/home/img/screenshots/2.JPEG",
+        img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/2.JPEG",
         description: "詩歌智能問答",
       },
       {
-        img: "/AIPoets/home/img/screenshots/3.JPEG",
+        img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/3.JPEG",
         description: "詩館",
       },
       {
-        img: "/AIPoets/home/img/screenshots/4.JPEG",
+        img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/4.JPEG",
         description: "個性化學習路徑",
       },
       {
-        img: "/AIPoets/home/img/screenshots/5.JPEG",
+        img: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/5.JPEG",
         description: "個人主頁",
       }
     ]
@@ -130,24 +130,24 @@ const screenshots = ref(
 const videos = ref(
     [
       {
-        video: "/AIPoets/home/files/1.mp4",
+        video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/1.mp4",
         description: "詩歌講解",
-        poster: "/AIPoets/home/files/video_posters/1.jpg",
+        poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/1.jpg",
       },
       {
-        video: "/AIPoets/home/files/2.mp4",
+        video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/2.mp4",
         description: "朗讀評分",
-        poster: "/AIPoets/home/files/video_posters/2.jpg",
+        poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/2.jpg",
       },
       {
-        video: "/AIPoets/home/files/3.mp4",
+        video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/3.mp4",
         description: "智能問答",
-        poster: "/AIPoets/home/files/video_posters/3.jpg",
+        poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/3.jpg",
       },
       {
-        video: "/AIPoets/home/files/4.mp4",
+        video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/4.mp4",
         description: "共創詩歌",
-        poster: "/AIPoets/home/files/video_posters/4.jpg",
+        poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/4.jpg",
       }
     ]
 )
@@ -160,9 +160,9 @@ const videos = ref(
 
   <div style="right: 0; position: absolute; height: 100vh; min-height: 290px; width: 50%; overflow: clip; z-index: -1">
     <div style="margin-left: 10%; margin-top: -290px; width: 1300px; height: 650px; position: relative; transform: rotate(-25deg)">
-      <img class="top-screenshot" src="/home/img/screenshots/library.jpg" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
-      <img class="top-screenshot" src="/home/img/screenshots/home.jpg" style="height: 80%; top: 35%; position: absolute;" alt="">
-      <img class="top-screenshot" src="/home/img/screenshots/learning_path.jpg" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/library.jpg" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/home.jpg" style="height: 80%; top: 35%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/learning_path.jpg" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
     </div>
   </div>
 
@@ -172,7 +172,7 @@ const videos = ref(
         <div class="columns">
           <div class="column is-6">
             <div>
-              <img src="/home/img/ai_digital_poet_logo.png" style="height: 6rem; vertical-align: middle;"
+              <img src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/ai_digital_poet_logo.png" style="height: 6rem; vertical-align: middle;"
                    alt="與AI古人聊古詩">
 
             <p class="title" style="font-size: 230%;" v-html="basic.name"></p>
@@ -182,7 +182,7 @@ const videos = ref(
             </p>
             <p class="subtitle pt-1"  style="font-size: 1.1rem; line-height: 1.8rem">
               ＊誠邀香港中小學成為合作夥伴並參與免費試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
-              <a href="https://pilab-hkbu.github.io/AIPoets/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
+              <a href="https://wofoo.blob.core.windows.net/aipoets/public/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
             </p>
           </div>
         </div>
@@ -192,7 +192,7 @@ const videos = ref(
 
   <section class="hero is-halfheight p-0" style="background-color: #FAEED7">
     <div class="hero-body" style="overflow: hidden; position: relative">
-      <img class="highlight-item-bg" src="/home/img/highlight_item_bg.png" style="position: absolute; right: 0; bottom: -10vh; height: 50vh;" alt="">
+      <img class="highlight-item-bg" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/highlight_item_bg.png" style="position: absolute; right: 0; bottom: -10vh; height: 50vh;" alt="">
       <div class="container is-max-desktop">
         <div class="columns is-multiline is-mobile">
           <div class="column is-full" v-for="items in highlightItems">
@@ -201,7 +201,7 @@ const videos = ref(
                 <div class="columns is-gapless is-vcentered is-multiline is-mobile">
                   <div class="column is-narrow mr-3">
                     <div class="highlightImageCanvas">
-                      <img class="highlightImage" src="/home/img/item_word/item_word_bg.png"
+                      <img class="highlightImage" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_bg.png"
                            alt="">
 
                       <img class="highlightImage" :src="item.img"
