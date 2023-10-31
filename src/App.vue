@@ -131,25 +131,25 @@ const videos = ref(
     [
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/1.mp4",
-        youtube: "https://youtube.com/embed/VsZfIyU4wug",
+        youtube: "https://youtube.com/embed/VsZfIyU4wug?rel=0",
         description: "詩歌講解",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/1.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/2.mp4",
-        youtube: "https://youtube.com/embed/_6PnljpivVc",
+        youtube: "https://youtube.com/embed/_6PnljpivVc?rel=0",
         description: "朗讀評分",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/2.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/3.mp4",
-        youtube: "https://youtube.com/embed/gNJrFlT9qn4",
+        youtube: "https://youtube.com/embed/gNJrFlT9qn4?rel=0",
         description: "智能問答",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/3.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/4.mp4",
-        youtube: "https://youtube.com/embed/sUHexaMnaYM",
+        youtube: "https://youtube.com/embed/sUHexaMnaYM?rel=0",
         description: "共創詩歌",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/4.jpg",
       }
