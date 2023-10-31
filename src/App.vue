@@ -131,21 +131,25 @@ const videos = ref(
     [
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/1.mp4",
+        youtube: "https://youtube.com/embed/VsZfIyU4wug",
         description: "詩歌講解",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/1.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/2.mp4",
+        youtube: "https://youtube.com/embed/_6PnljpivVc",
         description: "朗讀評分",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/2.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/3.mp4",
+        youtube: "https://youtube.com/embed/gNJrFlT9qn4",
         description: "智能問答",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/3.jpg",
       },
       {
         video: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/4.mp4",
+        youtube: "https://youtube.com/embed/sUHexaMnaYM",
         description: "共創詩歌",
         poster: "https://wofoo.blob.core.windows.net/aipoets/public/home/files/video_posters/4.jpg",
       }
@@ -244,12 +248,14 @@ const videos = ref(
 
         <div class="columns is-mobile is-multiline">
           <div class="column is-3 is-hidden-mobile" v-for="item in videos">
-            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>
+<!--            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>-->
+            <iframe  width="100%" height="400" :src="item.youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
           </div>
 
           <div class="column is-6 is-hidden-tablet" v-for="item in videos">
-            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>
+<!--            <video width="100%" :src="item.video" style="width: 100%" preload="none" :poster="item.poster" controls></video>-->
+            <iframe  width="100%" height="400" :src="item.youtube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p v-html="item.description" style="text-align: center; font-size: 1.2rem;"></p>
           </div>
 
@@ -309,10 +315,6 @@ const videos = ref(
 
 <style scoped>
 * {
-  font-family: 'Free HK', sans-serif; /* 使用 @font-face 自定义的字体 */
-}
-
-.section-title {
   font-family: SimSun,sans-serif;
 }
 

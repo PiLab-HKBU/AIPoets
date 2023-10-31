@@ -67,7 +67,5 @@ const historyLine = ref([
 </template>
 
 <style scoped>
-.section-title {
-  font-family: SimSun,sans-serif;
-}
+
 </style>
