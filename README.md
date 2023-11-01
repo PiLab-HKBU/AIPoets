@@ -1,6 +1,6 @@
 # 與AI古人聊古詩 
 
-[訪問官網](pilab-hkbu.github.io/AIPoets/)
+[訪問官網](https://pilab-hkbu.github.io/AIPoets/)
 
 通過與古詩人AI對話來幫助學生在課堂之外沈浸式學習古詩，提高他們學習中國古詩的興趣，並增強普通話交流能力。
 
