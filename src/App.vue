@@ -58,7 +58,7 @@ const members = ref(
       {
         avatar: "https://wofoo.blob.core.windows.net/aipoets/public/home/img/members/wenfang_liang.jpg",
         name: "梁文芳博士",
-        title: "普通話組主任<br>及高級講師<br>語文中心<br>香港浸會大學",
+        title: "普通話培訓測試中心主任<br>及高級講師<br>語文中心<br>香港浸會大學",
         domains: "研究方向：語言評估、漢語作為第二語言教學",
         website: "https://artsbu.hkbu.edu.hk/tc/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
       },
