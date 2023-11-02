@@ -185,7 +185,7 @@ const videos = ref(
 
             </p>
             <p class="subtitle pt-1"  style="font-size: 1.1rem; line-height: 1.8rem">
-              ＊誠邀香港中小學成為合作夥伴並參與免費試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
+              ＊誠邀香港中小學成為合作夥伴並參與試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
               <a href="https://wofoo.blob.core.windows.net/aipoets/public/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
             </p>
           </div>
