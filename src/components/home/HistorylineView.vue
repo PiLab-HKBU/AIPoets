@@ -1,48 +1,5 @@
 <script setup>
-import {ref} from "vue";
-
-const historyLine = ref([
-  {
-    title: "概念演示",
-    date: "10/2023",
-    description: "",
-  },
-  {
-    title: "教育工作者訪談",
-    date: "09/2023",
-    description: "",
-  },
-  {
-    title: "原型稿設計",
-    date: "09/2023",
-    description: "",
-  },
-  {
-    title: "多模態大語言模型研究",
-    date: "08/2023",
-    description: "",
-  },
-  {
-    title: "古人數字化研究",
-    date: "07/2023",
-    description: "",
-  },
-  {
-    title: "架構設計",
-    date: "06/2023",
-    description: "",
-  },
-  {
-    title: "市場研究與競品分析",
-    date: "06/2023",
-    description: "",
-  },
-  {
-    title: "項目啟動",
-    date: "06/2023",
-    description: "",
-  }
-])
+import { historyLine } from "@/data/homeData";
 
 </script>
 
