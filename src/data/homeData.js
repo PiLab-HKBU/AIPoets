@@ -58,18 +58,18 @@ export const members = ref(
             website: "https://artsbu.hkbu.edu.hk/tc/about-us/our-community-of-teachers-and-researchers/dr-leung-man-fong",
         },
         {
-            avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/jing_jin.jpg",
-            name: "金晶博士",
-            title: "語言教育中心主任<br>中國語言學系副教授<br>香港教育大學",
-            domains: "研究方向：漢語語言學、 語法語義接口、語法語用接口、語言習得方法",
-            website: "https://repository.eduhk.hk/en/persons/jing金晶-jin",
-        },
-        {
             avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/shaoxiong_qiu.jpg",
             name: "邱少雄校長, MH",
             title: "仁濟醫院王華湘中學校長<br>香港教師會理事會會長<br>新界校長會副會長<br>香港教育大學校董會成員<br>香港城市大學電子計算學理學碩士",
             domains: "",
             website: "https://www.ychwwsss.edu.hk/singlepage/index?channel_id=6757",
+        },
+        {
+            avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/jing_jin.jpg",
+            name: "金晶博士",
+            title: "語言教育中心主任<br>中國語言學系副教授<br>香港教育大學",
+            domains: "研究方向：漢語語言學、 語法語義接口、語法語用接口、語言習得方法",
+            website: "https://repository.eduhk.hk/en/persons/jing金晶-jin",
         },
         {
             avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/yizhe_zhang.jpg",
@@ -78,13 +78,13 @@ export const members = ref(
             domains: "研究方向：推薦系統、人機交互、軟件工程",
             website: "https://elecoxy.com/",
         },
-        {
-            avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/sinan_yu.jpg",
-            name: "余思南女士",
-            title: "在讀博士生<br>計算機科學系<br>香港浸會大學",
-            domains: "研究方向：人機交互、個性化界面設計",
-            website: "https://github.com/Yusi-sinanyu",
-        }
+        // {
+        //     avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/sinan_yu.jpg",
+        //     name: "余思南女士",
+        //     title: "在讀博士生<br>計算機科學系<br>香港浸會大學",
+        //     domains: "研究方向：人機交互、個性化界面設計",
+        //     website: "https://github.com/Yusi-sinanyu",
+        // }
     ]
 )
 
