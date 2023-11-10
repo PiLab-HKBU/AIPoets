@@ -128,8 +128,8 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
               <div class="column pt-5">
                 <a :href="item.website" target="_blank" style="color: #BF5A25"><p v-html="item.name"
                               style="text-align: center; font-size: 1.2rem; font-weight: bold; font-family: SimSun,sans-serif"></p></a>
-                <p class="py-2" v-html="item.title"></p>
-                <p v-html="item.domains"></p>
+                <p class="py-2" v-html="item.title" style="font-size: 14px"></p>
+                <p v-html="item.domains" style="font-size: 14px"></p>
               </div>
             </div>
           </div>

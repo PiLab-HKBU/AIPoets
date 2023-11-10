@@ -67,7 +67,7 @@ export const members = ref(
         {
             avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/members/shaoxiong_qiu.jpg",
             name: "邱少雄校長, MH",
-            title: "仁濟醫院王華湘中學校長<br>香港教師會理事會會長<br>新界校長會副會長<br>香港教育大學校董會成員",
+            title: "仁濟醫院王華湘中學校長<br>香港教師會理事會會長<br>新界校長會副會長<br>香港教育大學校董會成員<br>香港城市大學電子計算學理學碩士",
             domains: "",
             website: "https://www.ychwwsss.edu.hk/singlepage/index?channel_id=6757",
         },
