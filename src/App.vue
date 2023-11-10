@@ -12,9 +12,9 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
 
   <div style="right: 0; position: absolute; height: 100vh; min-height: 290px; width: 50%; overflow: clip; z-index: -1">
     <div style="margin-left: 10%; margin-top: -290px; width: 1300px; height: 650px; position: relative; transform: rotate(-25deg)">
-      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/library.jpg" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
-      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/home.jpg" style="height: 80%; top: 35%; position: absolute;" alt="">
-      <img class="top-screenshot" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/screenshots/learning_path.jpg" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/screenshots/library.jpg" style="height: 80%; top: -50%; left: 5%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/screenshots/home.jpg" style="height: 80%; top: 35%; position: absolute;" alt="">
+      <img class="top-screenshot" src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/screenshots/learning_path.jpg" style="height: 80%; top: 35%; left: 21%; position: absolute;" alt="">
     </div>
   </div>
 
@@ -24,7 +24,7 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
         <div class="columns">
           <div class="column is-6">
             <div>
-              <img src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/ai_digital_poet_logo.png" style="height: 6rem; vertical-align: middle;"
+              <img src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/ai_digital_poet_logo.png" style="height: 6rem; vertical-align: middle;"
                    alt="與AI古人聊古詩">
 
             <p class="title" style="font-size: 230%;" v-html="basic.name"></p>
@@ -34,7 +34,7 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
             </p>
             <p class="subtitle pt-1"  style="font-size: 1.1rem; line-height: 1.8rem">
               ＊誠邀香港中小學成為合作夥伴並參與試用<br>聯繫方式：陳黎教授，<span><span>lichen</span><span>@</span><span>comp.hkbu.edu.hk</span></span>
-              <a href="https://wofoo.blob.core.windows.net/aipoets/public/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
+              <a href="https://wofoo2.blob.core.windows.net/aipoets/public/home/files/poster.pdf" target="_blank" style="color: #BF5A25; text-decoration: underline"><br><br>宣傳海報下載</a>
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
 
   <section class="hero is-halfheight p-0" style="background-color: #FAEED7">
     <div class="hero-body" style="overflow: hidden; position: relative">
-      <img class="highlight-item-bg" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/highlight_item_bg.png" style="position: absolute; right: 0; bottom: -10vh; height: 50vh;" alt="">
+      <img class="highlight-item-bg" src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/highlight_item_bg.png" style="position: absolute; right: 0; bottom: -10vh; height: 50vh;" alt="">
       <div class="container is-max-desktop">
         <div class="columns is-multiline is-mobile">
           <div class="column is-full" v-for="items in highlightItems">
@@ -53,7 +53,7 @@ import HistorylineView from "@/components/home/HistorylineView.vue";
                 <div class="columns is-gapless is-vcentered is-multiline is-mobile">
                   <div class="column is-narrow mr-3">
                     <div class="highlightImageCanvas">
-                      <img class="highlightImage" src="https://wofoo.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_bg.png"
+                      <img class="highlightImage" src="https://wofoo2.blob.core.windows.net/aipoets/public/home/img/item_word/item_word_bg.png"
                            alt="">
 
                       <img class="highlightImage" :src="item.img"
