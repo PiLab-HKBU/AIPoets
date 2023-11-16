@@ -100,6 +100,11 @@ export const organizations = ref(
             avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/organizations/HKFEW_TECHED_CENTRE.png",
             name: "香港教育工作者聯會",
             website: "https://hkfew.org.hk",
+        },
+        {
+            avatar: "https://wofoo2.blob.core.windows.net/aipoets/public/home/img/organizations/mandarin.edu.hk.jpg",
+            name: "香港普通話研習社",
+            website: "https://www.mandarin.edu.hk/",
         }
     ]
 )
